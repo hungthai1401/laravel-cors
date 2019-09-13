@@ -1,0 +1,30 @@
+{
+    "name": "hungthai1401/laravel-cors",
+    "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
+    "license": "MIT",
+    "keywords": ["laravel", "cors", "crossdomain", "api"],
+    "authors": [
+        {
+            "name": "Nguyen Hung Thai",
+            "email": "hungthai1401.it@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^5.5|^6",
+        "illuminate/routing": "^5.5|^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "HT\\Cors\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HT\\Cors\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
